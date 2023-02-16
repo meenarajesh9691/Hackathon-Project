@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="nav-container">
+      <div class="nav-left">
+        <img src="img/logo-img.png" alt="" />
+
+      </div>
+      <div class="nav-center">
+        <ul>
+          <li><a id="home" href="">HOME</a></li>
+          <li><a href="">ABOUT US</a></li>
+          <li><a href="">SERVICES</a></li>
+          <li><a href="#ROOMS">ROOMS</a></li>
+          <li><a href="#FOODS">TABLE RESERVATION</a></li>
+          <li><a href="#FOODS">FOOD</a></li>
+          <li><a href="">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li><a href=""><i class="ri-search-line"></i></a></li>
+          <li><a href=""><i class="ri-shopping-cart-2-line"></i></a></li>
+          <li><a href=""> <span>Sign in</span> <i class="ri-login-box-line"></i></a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="sec-center">
+      <div class="left-content">
+        <h4>Hotel & Restaurant</h4>
+        <h1>Welcome To Kothik</h1>
+        <button>Discover Now</button>
+      </div>
+
+      <div class="form-right">
+        <h1>BOOK YOUR ROOM</h1>
+        <form class="form" action="">
+          <input class="fullname" type="text" placeholder="Full name" id="FULLNAME"> <br>
+
+          <input class="check-In" type="date" placeholder="Check-In" id="CHECK-IN">
+
+          <input class="check-out" type="date" placeholder="Check-out" id="CHECK-OUT"> <br>
+
+          <input class="adults" type="text" placeholder="Adults" id="ADULTS">
+
+          <input class="children" type="text" placeholder="Children" id="CHILDREN"> <br>
+
+          <button id="btn-book_room">BOOK ROOM</button>
+
+        </form>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- section-1  -->
+
+  <div class="sec-1">
+    <div class="slide-box">
+      <div class="slide-box1">
+
+        <div class="slide-1"><a href="#ROOMS"><button class="rooms-btn">Rooms</button></a></div>
+        <div class="slide-2"><a href="#ROOMS"><button class="rooms-btn">Rooms</button></a></div>
+        <div class="slide-3"><a href="#ROOMS"><button class="rooms-btn">Rooms</button></a></div>
+        <div class="slide-4"><a href="#ROOMS"><button class="rooms-btn">Rooms</button></a></div>
+      </div>
+
+      <div class="slide-box2">
+        <div class="slide-a"><a href="#RESTAURANT"><button class="restaurant-btn">RESTAURANT</button></a></div>
+        <div class="slide-b"><a href="#RESTAURANT"><button class="restaurant-btn">RESTAURANT</button></a></div>
+        <div class="slide-c"><a href="#RESTAURANT"><button class="restaurant-btn">RESTAURANT</button></a></div>
+        <div class="slide-d"><a href="#RESTAURANT"><button class="restaurant-btn">RESTAURANT</button></a></div>
+      </div>
+
+
+
+      <div class="slide-box3">
+        <div class="slide-A"><a href="#FOODS"><button class="foods-btn">FOODS</button></a></div>
+        <div class="slide-B"><a href="#FOODS"><button class="foods-btn">FOODS</button></a></div>
+        <div class="slide-C"><a href="#FOODS"><button class="foods-btn">FOODS</button></a></div>
+        <div class="slide-D"><a href="#FOODS"><button class="foods-btn">FOODS</button></a></div>
+      </div>
+
+
+
+    </div>
+  </div>
+  <!-- Rooms-section  -->
+  <div class="rooms-section" id="ROOMS"></div>
+
+  <!-- Restaurant-section  -->
+  <div class="restaurant-section" id="RESTAURANT"></div>
+
+  <!-- Foods-section  -->
+  <div class="foods-section" id="FOODS"></div>
+
+
+  <!-- script  -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
